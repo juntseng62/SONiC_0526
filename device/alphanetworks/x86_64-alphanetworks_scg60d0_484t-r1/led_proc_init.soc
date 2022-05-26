@@ -1,0 +1,6 @@
+# LED microprocessor initialization for alphanetworks scg60d0-484t
+
+#LED FW is loaded in SAI platform_init.c
+#m0 load 0 0x3800 /alpha/bcm/led/jungfrau-320f_traffic_led.bin
+led start
+led auto on
